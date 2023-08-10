@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Smart Light Controller</string>
+    <string name="searching_for_hue_hub">Searching for Hue hub…</string>
+    <string name="press_button_on_bridge">Hub found! Press button on Hub to authenticate.</string>
+    <string name="hub_not_found">No Hue hub found. Please ensure your glasses are connected to the same WiFi network as your hub.</string>
+    <string name="button_pressed_communicating_with_hub">Button Pressed! Communicating with Hub…</string>
+    <string name="main">Main</string>
+    <string name="light_list_screen">Light List</string>
+    <string name="setup_complete">Setup Complete</string>
+</resources>
