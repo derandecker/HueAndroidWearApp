@@ -5,11 +5,12 @@ plugins {
     kotlin("kapt")
     //this line needs to be converted to libs
     id("com.google.dagger.hilt.android")
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
     namespace = "com.derandecker.smartlightcontroller"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.derandecker.smartlightcontroller"
